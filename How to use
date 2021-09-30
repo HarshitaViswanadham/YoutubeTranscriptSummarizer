@@ -1,0 +1,17 @@
+Steps to execute the code:
+Step-1   :Open Colab notebook
+Step-2   :pip install transformers and youtube transcript api
+Step-3   :pip install summa
+Step-4   :from transformers import pipeline
+Step-5   :from youtube_transcipt_api import YoutubeTranscriptApi
+Step-6   :give youtube video URL and take video id from that url 
+Step-7   :from IPython.display import YouTube Video
+Step-8   :YoutubeTranscriptApi.get_transcript(video_id) transcript = youtubeTransciptapi.get_transcript(video_id)
+Step-9   :transcript[0:5]
+Step-10  :summarizer = pipeline ('summarization')
+Step-11  :Run the cell and print the summarised text 
+Step-12  :from summa.summarizer import summarize
+Step-13  :text =str(text1)
+Step-14  :Now print the summarized text based on ratio summarize(text,ratio =0.5)
+Step-15  :pip install googletrans
+Step-16  :convert the summarized text into desired language(s)
